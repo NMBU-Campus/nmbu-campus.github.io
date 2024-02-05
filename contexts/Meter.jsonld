@@ -1,5 +1,12 @@
 {
   "@context": {
+    "isVirtualMeter": "dtmi:org:brickschema:schema:Brick:Meter:_contents:__isVirtualMeter;1",
+    "hasSubMeter": "dtmi:org:brickschema:schema:Brick:Meter:_contents:__hasSubMeter;1",
+    "isSubMeterOf": "dtmi:org:brickschema:schema:Brick:Meter:_contents:__isSubMeterOf;1",
+    "meters": "dtmi:org:brickschema:schema:Brick:Meter:_contents:__meters;1",
+    "operationalStageCount": "dtmi:org:brickschema:schema:Brick:Equipment:_contents:__operationalStageCount;1",
+    "feeds": "dtmi:org:brickschema:schema:Brick:Equipment:_contents:__feeds;1",
+    "isFedBy": "dtmi:org:brickschema:schema:Brick:Equipment:_contents:__isFedBy;1",
     "IPAddress": "dtmi:org:w3id:rec:Asset:_contents:__IPAddress;1",
     "MACAddress": "dtmi:org:w3id:rec:Asset:_contents:__MACAddress;1",
     "assetTag": "dtmi:org:w3id:rec:Asset:_contents:__assetTag;1",
