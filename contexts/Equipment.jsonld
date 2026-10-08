@@ -1,5 +1,8 @@
 {
   "@context": {
+    "operationalStageCount": "dtmi:org:brickschema:schema:Brick:Equipment:_contents:__operationalStageCount;1",
+    "feeds": "dtmi:org:brickschema:schema:Brick:Equipment:_contents:__feeds;1",
+    "isFedBy": "dtmi:org:brickschema:schema:Brick:Equipment:_contents:__isFedBy;1",
     "IPAddress": "dtmi:org:w3id:rec:Asset:_contents:__IPAddress;1",
     "MACAddress": "dtmi:org:w3id:rec:Asset:_contents:__MACAddress;1",
     "assetTag": "dtmi:org:w3id:rec:Asset:_contents:__assetTag;1",
